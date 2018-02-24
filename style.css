@@ -1,0 +1,90 @@
+body {
+  font-size: 24px;
+  line-height: 120%;
+  color: white !important;
+
+}
+
+
+html, body {
+    height: 100%;
+    background-color: #200A3C !important;
+}
+
+
+
+#header {
+  font-weight: 800;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+  font-family: 'Patua One', cursive;
+  color: white !important;
+  background-color: #ED2176 !important;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.9);
+  padding-bottom: 16px !important;
+  padding-top: 0 !important;
+  border-top: 6px solid white;
+  border-left: 5px solid #A51959;
+  border-right: 8px solid white;
+  max-width: 250px;
+  max-height: 317px;
+  min-width: 250px;
+  min-height: 317px;
+
+}
+#quote-text {
+  width: 205px;
+  height: 144px;
+  margin-left: 20px;
+  font-size: 1.2rem
+}
+#quote-button {
+  background-color: #200A3C;
+  border-color: #200A3C !important;
+  color: white;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.8) !important;
+
+}
+
+#quote-button:active {
+  background-color: #A51959;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+  border: none;
+}
+
+.bookmarkRibbon{
+     width:0;
+     height:25px;
+     border-right:12.5px solid#A51959;
+     border-left:12.5px solid #A51959;
+     border-bottom:12.5px solid transparent;
+     padding: 0;
+
+}
+
+
+#author {
+  color: white;
+  font-size: .8rem;
+}
+
+.share-icons {
+  font-size: 2.5rem;
+  color:white;
+  margin: 0px 2px 0px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.share-icons:hover {
+  color: #CA1E62;
+}
