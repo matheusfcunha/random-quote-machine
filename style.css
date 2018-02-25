@@ -88,3 +88,17 @@ html, body {
 .share-icons:hover {
   color: #CA1E62;
 }
+
+@media (min-width:801px)  {
+
+  .container {
+   transform: scale(1.2);
+  }
+
+}
+
+@media (min-width:1025px) {
+  .container {
+    transform: scale(1.2);
+  }
+}
